@@ -75,6 +75,3 @@ def create_tx(coin,account, recipient, amount):
         return PrivateKeyTestnet.prepare_transaction(account.address, [(recipient, amount, BTC)])
 ```
 
-Could not get eth transaction done. Had an error.
-
-![](images/homework15.PNG) 
